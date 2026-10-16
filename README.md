@@ -14,6 +14,7 @@
 
 ```sh
 python -m venv .venv
+.venv\Scripts\activate            # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
 
 python run.py                     # всё видео -> output/overlay.mp4, ~13 мин
